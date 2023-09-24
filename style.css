@@ -1,0 +1,72 @@
+h3 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    margin:auto;
+    margin-top: 5px;
+    text-align: center;
+
+}
+
+h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top:10px;
+    text-align: center;
+    text-transform: uppercase;
+    
+}
+
+.container{
+   
+    display: flex;
+    justify-content: center; /* İçeriği yatayda ortala */
+    align-items: center; /* İçeriği dikeyde ortala */
+    margin-top: 60px;
+
+  
+}
+
+
+
+.otel {
+   
+    display:flex;
+    align-items: flex-start;
+    flex-direction: column;
+    position:absolute;
+    top:0;
+    margin: 50px;
+    left:4px;
+}
+
+.tenenbaum{
+    position:absolute;
+    margin:50px;
+    padding:0;
+    top:0;
+    right:1px;
+}
+
+.yükselen{
+    text-align: center;
+    margin-top:40px;
+}
+
+.asteroit{
+    
+    display:flex;
+    flex-direction: column;
+    position: absolute;
+    bottom:70px;
+    left:56px;
+    flex-direction: column;
+   
+}
+
+.french{
+    display:flex;
+    flex-direction: column;
+    position: absolute;
+    bottom:70px;
+    right:56px;
+}
+
